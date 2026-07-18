@@ -15,7 +15,7 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.rally512.pathairebuild",
-      "buildNumber": "50",
+      "buildNumber": "51",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -38,7 +38,7 @@
     "owner": "mmurphy",
     "plugins": [
       "@react-native-community/datetimepicker",
-      "expo-asset"
+      "expo-fmt-consteval-fix"
     ]
   }
 }
