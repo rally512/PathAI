@@ -13,7 +13,12 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rally512.pathairebuild",
+      "buildNumber": "50",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -24,6 +29,16 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "85c3ac7e-00ac-4ce0-a3a4-a6544ecab3dd"
+      }
+    },
+    "owner": "mmurphy",
+    "plugins": [
+      "@react-native-community/datetimepicker",
+      "expo-asset"
+    ]
   }
 }
